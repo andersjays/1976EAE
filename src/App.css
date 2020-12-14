@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.logo {
+  margin-right: 1.5em;
+}
+
+.home-content {
+  margin-top: 7em !important;
+}
+
+.carousel .thumb img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.carousel .slide img {
+  max-height: 500px;  /* change this to whatever you want */
+  width: auto;
+}
+
+.our-team-text {
+  font-family: "Courier New", monospace;
+  border-bottom: 5px solid #A29D97 !important;
+}
+
+.our-team {
+  max-height: 400px !important;  /* change this to whatever you want */
+}
+
+.navbar-menu {
+  background: #FFFFFF !important;
+}
+
+.company-info {
+  font-family: "Courier New", monospace;
+  color: grey;
+}
