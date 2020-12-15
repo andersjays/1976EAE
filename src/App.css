@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+.App {}
 
 .App-logo {
   height: 40vmin;
@@ -42,7 +40,11 @@
 }
 
 .home-content {
-  margin-top: 7em !important;
+  margin-top: 4em !important;
+}
+
+.home-content-mobile {
+  margin-top: 6em !important;
 }
 
 .carousel .thumb img {
@@ -55,9 +57,15 @@
   width: auto;
 }
 
-.our-team-text {
-  font-family: "Courier New", monospace;
+.our-team-header {
+  font-family: "Courier New", monospace !important;
   border-bottom: 5px solid #A29D97 !important;
+}
+
+.our-team-text {
+  font-family: "Courier New", monospace !important;
+  font-size: 1.5vw !important;
+  color: #59595b;
 }
 
 .our-team {
@@ -70,5 +78,23 @@
 
 .company-info {
   font-family: "Courier New", monospace;
-  color: grey;
+  font-size: 1.5vw !important;
+  color: #59595b;
+}
+
+.company-goal {
+  position: absolute;
+  width: 39% !important;
+  height: 60% !important;
+  left: 60%;
+  top: 20%;
+  right: 1%;
+  bottom: 20%;
+  background: rgba(255,255,255,.9);
+}
+
+.company-goal-text {
+  font-family: "Courier New", monospace !important;
+  font-size: 1.5vw !important;
+  margin: 10% !important;
 }

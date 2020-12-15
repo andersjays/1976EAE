@@ -30,7 +30,7 @@ const NavBarMobile = ({
         </Menu>
       </Grid.Column>
       <Grid.Column>
-        <Sidebar.Pushable as={Grid} className='home-content'>
+        <Sidebar.Pushable as={Grid} className='home-content-mobile'>
           <Sidebar
             as={Menu}
             animation="overlay"
@@ -66,13 +66,13 @@ const NavBarMobile = ({
               />
           </Sidebar>
           <Sidebar.Pusher>
-        <Grid>
-        <Grid.Row>
-      <Grid.Column>
-            <Home />
-            </Grid.Column>
-    </Grid.Row>
-  </Grid>
+          <Grid>
+            <Grid.Row>
+              <Grid.Column>
+                <Home />
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>     
           </Sidebar.Pusher>
         </Sidebar.Pushable>
       </Grid.Column>
@@ -119,8 +119,13 @@ const NavBarDesktop = ({
       </Menu.Menu>
     </Container>
   </Menu>
-  <Home />
-      
+  <Grid className='home-content'>
+    <Grid.Row>
+      <Grid.Column>
+        <Home />
+      </Grid.Column>
+    </Grid.Row>
+  </Grid>      
   </div>
 );
 
